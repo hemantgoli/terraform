@@ -22,9 +22,9 @@ terraform {
 }
 
 # select aws ec2
-module "aws-ec2" {
-    source = "./modules/ec2"
-}
+#module "aws-ec2" {
+#    source = "./modules/ec2"
+#}
 
 #output
 output "ec2-public-ip" {
